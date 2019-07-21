@@ -1,0 +1,115 @@
+
+body {
+    height: 2000px;
+}
+#nav-circular {
+    width: 500px;
+    height: 500px;
+    /* background-color: #666; */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    bottom: 100px;
+    right: 100px;
+    border-radius: 50%;
+}
+#nav-circular ul{
+    width: 200px;
+    height: 200px;
+    background-color: #005EA4;
+    border-radius: 50%;
+    position: absolute;
+    top:150px;
+    left: 150px;
+}
+#nav-circular ul::before{
+    content: "A";
+    /* background-color: #fff; */
+    display: block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid #005EA4;
+    left: -23px;
+    top: -23px;
+    border-top-width: 0;
+    border-bottom-width: 5px;
+}
+#nav-circular ul li{
+    /* background-color: #222;  */
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: -150px;
+    top: 75px;
+
+}
+#nav-circular ul li i{
+    font-size: 30px;
+    background-color: #005EA4;
+    color: white;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
+}
+#nav-circular ul li a{
+    display: block;
+    width:75px;
+    text-align: center;
+    transform-origin: 37px 25px;
+    color: #333;
+
+}
+#nav-circular ul li:nth-child(1){}
+#nav-circular ul li:nth-child(2){
+    transform: rotate(-30deg);
+
+}
+#nav-circular ul li:nth-child(3){
+    transform: rotate(-60deg);
+}
+#nav-circular ul li:nth-child(4){
+    transform: rotate(-90deg);
+}
+#nav-circular ul li:nth-child(5){
+    transform: rotate(-120deg);
+}
+#nav-circular ul li:nth-child(6){
+    transform: rotate(-150deg);
+}
+#nav-circular ul li:nth-child(7){
+    transform: rotate(-180deg);
+}
+#nav-circular ul li:nth-child(2) a {
+    transform: rotate(30deg);
+}
+#nav-circular ul li:nth-child(3) a {
+    transform: rotate(60deg);
+}
+
+#nav-circular ul li:nth-child(4) a {
+    transform: rotate(90deg);
+}
+
+#nav-circular ul li:nth-child(5) a {
+    transform: rotate(120deg);
+}
+
+#nav-circular ul li:nth-child(6) a {
+    transform: rotate(150deg);
+}
+
+#nav-circular ul li:nth-child(7) a {
+    transform: rotate(180deg);
+}
+/* cercul din centru h2,p,a 
+de creat inca un li separat care va contine elementele de mai sus si sa fie centrat  */
+
+
+
+
